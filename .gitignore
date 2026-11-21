@@ -1,0 +1,8 @@
+__pycache__/
+results/
+state/
+config.toml
+events.csv
+.env
+*.csv
+!events.example.csv

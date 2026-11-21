@@ -1,0 +1,28 @@
+# Copy to config.toml and change what you need. Anything left out uses the default in volarb/config.py.
+
+# Signal (vol points: 2.0 = implied 2 percentage points above the forecast)
+short_entry_edge = 2.0
+short_entry_ratio = 1.10
+long_entry_edge = 2.0
+exit_edge = 0.5
+enable_long_vol = true
+
+# Structure
+target_dte = 30
+wing_pct = 0.05          # iron-fly wings +/-5% from the money
+
+# Exits
+exit_dte = 7
+short_profit_take = 0.50
+short_stop_loss = 1.00
+
+# Risk
+risk_per_trade = 0.03    # max loss per structure = 3% of equity
+max_contracts = 10
+max_drawdown_halt = 0.15
+hedge_band = 0.10
+
+# Costs
+option_half_spread = 0.03
+option_fee_per_contract = 0.05
+stock_cost_bps = 1.0

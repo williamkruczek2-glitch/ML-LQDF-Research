@@ -1,0 +1,6 @@
+alpaca-py>=0.45
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn   # only for the gradient-boosting forecaster

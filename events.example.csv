@@ -1,0 +1,5 @@
+date,label
+# Milan: copy to events.csv and list scheduled market events (one per row, YYYY-MM-DD).
+# Delete these comment lines. Example rows below are placeholders, not real dates.
+2099-01-01,FOMC decision (example)
+2099-01-02,CPI release (example)
